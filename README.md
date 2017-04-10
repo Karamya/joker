@@ -69,7 +69,18 @@ The algorithm that we will be using is a long short term memory based recurrent 
 
 http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
-http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+http://karpathy.github.io/2015/05/21/rnn-effectiveness/ 
+
+For the character level model each character is one hot encoded and sequence of characters are given as input and a single character is predicted as output based on the characters the model has seen prior to it. If your dataset has 1000 different words and an average sentence has 10 words. Then the sentence can be represented a matrix of 1000x 10 matrix. and if each word is represented by 32 bits, then 32 x 1000 x 10 will be your memory size (40 kb). Consider a language which is rich in vocabulary and these might result in using a huge amount of memory.
+
+So, the first step in developing a good language model is to reduce the number of dimensions to represent a word.
+A popular method is word2vec
+king - man + woman = queen
+In keras, this is available as an Embedding layer. The layer takes as input a (n_batches, sentence_length) dimensional matrix of integers representing each word in the corpus and outputs a (n_batches, sentence_length, n_embedding_dims) dimensional matrix, where the last dimension is the word embedding
+
+There are two advantages in this:
+1) First is space, instead of 40mb, a 10 word sentence embedded in 100 dimensions would take only 4 kb, which is much more reasonable. Word embeddings give the model a hint at the meaning of each word, so it will converge more quickly.
+2) few parameters to play around and they are sort of tied together in a sensible way
 
 Here is an illustrative model that was used for training one of the language models. The model was tested by playing with few hyperparameters such as the number of hidden layers, the number of hidden units, sequence length   
 
