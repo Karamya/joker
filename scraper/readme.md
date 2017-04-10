@@ -12,12 +12,19 @@ To scrape jokes subreddit, you need to have PRAW installed and use the file scra
 
 To scrape from other websites mentioned above, you need to have scrapy installed, and try the following commands for scraping jokes from respective websites. You are free to change the scrap_jokes/spiders/unijokes_spider.py to scrap all the jokes or limit the jokes with high ratings or votes. 
 
-`scrapy crawl jokes` for https://unijokes.com \n
+`scrapy crawl jokes` for https://unijokes.com 
+
 `scrapy crawl laughfactory` for www.laughfactory.com
+
 `scrapy crawl onelinefun` for www.onelinefun.com
+
 `scrapy crawl ajokeaday` for https://www.ajokeaday.com
+
 `scrapy crawl kickasshumor` for www.kickasshumor.com
+
 `scrapy crawl funny2` for http://funny2.com
+
 `scrapy crawl jokesoftheday` for www.jokesoftheday.net
+
 
 
