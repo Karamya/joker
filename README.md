@@ -21,6 +21,8 @@ My main criterion while creating a joke dataset was to have jokes that have good
 
 ![Alt text](scraper/joke_sources.png "Title")
 
-The codes are available in the folder scraper. Please feel free to modify your 
+The codes are available in the folder scraper. For scraping from Reddit (www.reddit.com/r/jokes), I used the PRAW (The Python Reddit API Wrapper)  library. In agreement, with the terms and conditions and not to stuff with too many requests to the Reddit website, I wait 2 seconds for every joke request. For all other websites shown in the image above, I used the powerful scrapy library. For more details, go through the readme file in the "scraper" folder. 
+
+
 
 
