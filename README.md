@@ -59,7 +59,7 @@ a plum & an apricot" That 's really stupid. rides off on a liger`
 
 Let me give you a short and concise introduction on what a language model is and what applications require creation of a language model. Let us take this example 
 
-$P(Data science is the future) > P(Data science is the Berlin > P(Data science is the Zukunft) > P(Data science ist die Zukunft)$ 
+$$P(Data science is the future) > P(Data science is the Berlin > P(Data science is the Zukunft) > P(Data science ist die Zukunft)$$ 
 
 
 
