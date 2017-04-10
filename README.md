@@ -17,6 +17,8 @@
   
 # Creating a Joke dataset
 
+My main criterion, while creating a joke dataset was to have only jokes that are 
+
 ![Alt text](joke_sources.png "Title")
 
 
