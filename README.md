@@ -15,7 +15,7 @@
 
   My idea here is to create a language model based on recurrent neural networks specifically long short term memory(LSTM) to generate jokes, hoping that I get atleast one line of joke out of every 50 lines of generated text. I hope that, it can also help stand-up comedians to come up with ideas, which they can improvise it on. 
   
-# Creating a Joke dataset
+## Creating a Joke dataset
 
 My main criterion while creating a joke dataset was to have jokes that have good rating. There were lot of jokes available online, that didn't make much sense in my opinion and I felt that, if you feed in garbage, you get garbage out. So, I scraped those jokes, which had more than 50% rating or which had atleast +2 score(upvotes - downvotes) in the case of reddit. Here is the list of websites from where I scraped.   
 
@@ -34,7 +34,28 @@ In total, I scraped 310967 jokes including longer jokes, duplicates, jokes with 
 
 It is also interesting to note from the plot above that, there is a large number of jokes around 140 character count, which incidentally is the character limit of twitter. 
 
-# Building a Language Model
+After cleaning the dataset, I found some jokes that are redundant, but with one more words difference such as 
+
+`What do you call a fish with no eye?   Fsh.
+What do you call a fish with no eyes? A fsh.
+What do you call a fish with no eyes? A fsh. What do you call a fish with four eyes?  NEEEERRRRD`
+
+I also found few jokes which had very good rating, but poor language. For example, consider this,
+
+`Hey whatcha eating ? "A pluot" Wtf is a pluot ? "A cross between 
+a plum & an apricot" That 's really stupid. rides off on a liger`
+
+`Alfijnbahkfnbsbbakrbbjdnebzk hzueonyvag macarena yrvixndvwhkga
+ ndhwkdbcbe hayvektoubabrjnahor HEYYYY MACARENA`
+ 
+ The last one got more than 3500 votes and I couldn't figure out the logic behind it, until I searched google and found that someone made fun of the lyrics of the song "Hey Macarena" which was famous in the 90s.
+ 
+ These are some examples which made me rethink, whether it really makes sense to come up with a language model and make jokes which are funny. But, I included all these in my dataset and proceeded along with my LSTM model. 
+
+
+
+
+## Building a Language Model
 
 
 
