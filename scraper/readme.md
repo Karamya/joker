@@ -4,7 +4,7 @@ My main criterion while creating a joke dataset was to have jokes that have good
 
 ![Alt text](joke_sources.png "Joke_Sources")
 
-For scraping from Reddit (www.reddit.com/r/jokes), I used the PRAW (The Python Reddit API Wrapper) library. In agreement, with the terms and conditions and not to stuff with too many requests to the Reddit website, I wait 2 seconds for every joke request. For all other websites shown in the image above, I used the powerful scrapy library. I would also like to thank Abhinav Moudgil (https://github.com/amoudgl/funnybot) for some of the jokes. 
+For scraping from Reddit (www.reddit.com/r/jokes), I used the PRAW (The Python Reddit API Wrapper) library. In agreement, with the terms and conditions and not to stuff with too many requests to the Reddit website, I wait 2 seconds for every joke request. For all other websites shown in the image above, I used the powerful scrapy library. 
 
 Feel free to modify the codes according to your needs and run the scripts provided.
 
@@ -26,5 +26,8 @@ To scrape from other websites mentioned above, you need to have scrapy installed
 
 `scrapy crawl jokesoftheday` for www.jokesoftheday.net
 
+Jester Jokes, I downloaded about 150 jokes from http://goldberg.berkeley.edu/jester-data/
 
+I would also like to thank Abhinav Moudgil (https://github.com/amoudgl/funnybot) for some of the jokes. 
 
+If someone reading this page has some nice source of good jokes, please write to me so that I can add codes for scraping the available data.
