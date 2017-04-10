@@ -31,3 +31,7 @@ Jester Jokes, I downloaded about 150 jokes from http://goldberg.berkeley.edu/jes
 I would also like to thank Abhinav Moudgil (https://github.com/amoudgl/funnybot) for some of the jokes. 
 
 If someone reading this page has some nice source of good jokes, please write to me so that I can add codes for scraping the available data.
+
+combine_text.py is to combine all the individual text files, that you obtained when scraping the jokes from different websites.
+
+clean_data.py file uses pandas to drop_duplicates, remove inappropriate words and extract only short jokes (30 >= jokes <= 200 characters).
