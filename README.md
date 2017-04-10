@@ -71,6 +71,12 @@ http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
 http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
+Here is an illustrative model that was used for training one of the language models. The model was tested by playing with few hyperparameters such as the number of hidden layers, the number of hidden units, sequence length   
+
+![Alt text](model.png "Title")
+
+
+
 
 
 
