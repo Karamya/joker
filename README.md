@@ -57,9 +57,18 @@ a plum & an apricot" That 's really stupid. rides off on a liger`
 
 ## Building a Language Model
 
-Let me give you a short and concise introduction on what a language model is and what applications require creation of a language model. Let us take this example 
+Let me give you a short and concise introduction on what a language model is and what applications require creation of a language model. Language model is basically probability distribution over a sequence of words. The example given below, best explains the language model for English. 'Data Science is the future' is more probable than 'Data science is the Berlin', which is more probable that the last two sentences with German words mixed in it.  
 
-\( P(Data science is the future) > P(Data science is the Berlin > P(Data science is the Zukunft) > P(Data science ist die Zukunft) \)
+![Alt text](prob_LM.png "Title")
+
+So, the idea of a language model is to predict the next word given a sequence of words. Language modeling is widely used in speech recognition, spelling correction/prediction, machine translation, text summarization, question-answering and so on. 
+
+The algorithm that we will be using is a long short term memory based recurrent neural networks, which are extremely efficient in language modeling and time seriese forecasting, where previous information is of paramount importance in predicting the sequence. In our case, we will be using joke dataset to create a language model. Since the size of the corpus is too small for a language model, we will be using character level language model, which are very effective for datasets that are smaller in size. For a very good introduction to recurrent neural networks and long short term memory, please go through the following two links:
+
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+
 
 
 
