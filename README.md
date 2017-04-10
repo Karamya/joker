@@ -5,7 +5,7 @@
 
 
 
-# Instilling a Sense of Humour in Computers
+## Instilling a Sense of Humour in Computers
 
   In today's scenario, computers are good at a wide variety of tasks and they can do almost all things a human can do and at a much faster rate, with less error. Computers are not only efficient in image recognition/classification or language translation, but they can also easily play strategic games such as Chess, Go, Poker, tic-tac-toe, etc., where they can easily overpower the best players in the world. If there is one thing I can think of which computers are not good at, then it is the sense of Humour.
 
