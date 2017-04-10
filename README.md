@@ -37,7 +37,9 @@ It is also interesting to note from the plot above that, there is a large number
 After cleaning the dataset, I found some jokes that are redundant, but with one more words difference such as 
 
 `What do you call a fish with no eye?   Fsh.
+
 What do you call a fish with no eyes? A fsh.
+
 What do you call a fish with no eyes? A fsh. What do you call a fish with four eyes?  NEEEERRRRD`
 
 I also found few jokes which had very good rating, but poor language. For example, consider this,
