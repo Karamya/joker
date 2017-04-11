@@ -86,7 +86,26 @@ Here is an illustrative model that was used for training one of the language mod
 
 ![Alt text](model.png "Title")
 
+The model was tested by playing with few hyperparameters such as the number of hidden layers (1, 2, 3), the number eratof hidden units (512, 1024, 2048), sequence length (150, 200).   
 
+The basic parameters can be changed in the command line as follows:
+
+`python train.py --data_file "reduced_char_jokes.txt"`
+
+`python train.py --data_file "reduced_char_jokes.txt" --rnn_size 1024`
+
+`python train.py --data_file "reduced_char_jokes.txt" --rnn_size 1024 --seq_length 150`
+
+`python train.py --data_file "reduced_char_jokes.txt" --rnn_size 1024 --seq_length 150 --num_epochs 20`
+
+`python train.py --data_file "reduced_char_jokes.txt" --rnn_size 1024 --seq_length 150 --num_epochs 20 --batch-size 50`
+
+
+Here is a plot of the trained model for different number of hidden_units.
+
+![Alt text](train_validation_loss.png "Title")
+
+The model overfits in the cases where the hidden units are larger. But in our case, we do not care much about overfitting as long as the generated text is not available in the input joke corpus.  
 
 
 
