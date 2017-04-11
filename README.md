@@ -141,10 +141,6 @@ Here comes the fun part. Here are some examples of the generated jokes.
 
 `I was going to make a joke about the movie Titanic, but I didn't want to go on.`
 
-
-`I was going to make a joke about the movie Titanic, but I didn't want to go on.`
-
-
 `I have a problem with my mom. It's gonna be so great.`
 
 `Why did the blonde stare at her windows for hours?  First she liked it.`
