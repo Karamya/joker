@@ -127,10 +127,10 @@ You can change the length of the generated text by using the variable 'length',
 
 Here comes the fun part. Here are some examples of the generated jokes.
 
-`A zombie walks into a bar. the bartender says, Hey, we don't serve food in here.`
+```A zombie walks into a bar. the bartender says, Hey, we don't serve food in here.
 
 
-`What do you call a fish with no eyes? No idea`
+What do you call a fish with no eyes? No idea```
 
 `I was going to make a joke about the movie Titanic, but I didn't want to go on.`
 
@@ -148,8 +148,6 @@ Here comes the fun part. Here are some examples of the generated jokes.
 `What do you call a cat who flies a plane? A pilot.`
 
 `What do you get if you cross a snowman with an Irishman? Wouldn't worry about it.`
-
-`Why did the hipster burn his mouth? He drank coffee before it was cool`
 
 `What do you call a cow with no eyes? Disappointment`
 
