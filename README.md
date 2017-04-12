@@ -36,19 +36,22 @@ It is also interesting to note from the plot above that, there is a large number
 
 After cleaning the dataset, I found some jokes that are redundant, but with one more words difference such as 
 
-`What do you call a fish with no eye?   Fsh.`
+```
+What do you call a fish with no eye?   Fsh.
 
-`What do you call a fish with no eyes? A fsh.`
+What do you call a fish with no eyes? A fsh.
 
-`What do you call a fish with no eyes? A fsh. What do you call a fish with four eyes?  NEEEERRRRD`
-
+What do you call a fish with no eyes? A fsh. What do you call a fish with four eyes?  NEEEERRRRD
+```
 I also found few jokes which had very good rating, but poor language. For example, consider this,
 
-`Hey whatcha eating ? "A pluot" Wtf is a pluot ? "A cross between 
-a plum & an apricot" That 's really stupid. rides off on a liger`
+```
+Hey whatcha eating ? "A pluot" Wtf is a pluot ? "A cross between 
+a plum & an apricot" That 's really stupid. rides off on a liger
 
-`Alfijnbahkfnbsbbakrbbjdnebzk hzueonyvag macarena yrvixndvwhkga
- ndhwkdbcbe hayvektoubabrjnahor HEYYYY MACARENA`
+Alfijnbahkfnbsbbakrbbjdnebzk hzueonyvag macarena yrvixndvwhkga
+ndhwkdbcbe hayvektoubabrjnahor HEYYYY MACARENA
+```
  
  The last one got more than 3500 votes and I couldn't figure out the logic behind it, until I searched google and found that someone made fun of the lyrics of the song "Hey Macarena" which was famous in the 90s.
  
@@ -126,31 +129,6 @@ You can change the length of the generated text by using the variable 'length',
 ## Generated jokes 
 
 Here comes the fun part. Here are some examples of the generated jokes.
-
-`A zombie walks into a bar. the bartender says, Hey, we don't serve food in here.`
-
-`What do you call a fish with no eyes? No idea`
-
-`I was going to make a joke about the movie Titanic, but I didn't want to go on.`
-
-`What do you call a Mexican who runs for Christmas? A secret enemy.`
-
-
-`What do you call a man with no arms and no legs, but only one dog in the bedroom to record? An interracist.`
-
-`I was going to make a joke about the movie Titanic, but I didn't want to go on.`
-
-`I have a problem with my mom. It's gonna be so great.`
-
-`Why did the blonde stare at her windows for hours?  First she liked it.`
-
-`What do you call a cat who flies a plane? A pilot.`
-
-`What do you get if you cross a snowman with an Irishman? Wouldn't worry about it.`
-
-`What do you call a cow with no eyes? Disappointment`
-
-`How many hipsters does it take to change a  light bulb? Only one but I have no idea how they got in there`
 
 ```
 A zombie walks into a bar. the bartender says, Hey, we don't serve food in here.
